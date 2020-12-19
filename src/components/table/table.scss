@@ -1,0 +1,40 @@
+@import '../../variables';
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .expanded {
+    text-align: left;
+  }
+
+  td {
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+    padding: 15px;
+    vertical-align:middle;
+    font-size: 12px;
+  }
+
+  thead {
+    text-transform: uppercase;    
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+
+    td {
+      font-size: 14px; 
+    }
+  }
+
+}
+
+h1{
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
