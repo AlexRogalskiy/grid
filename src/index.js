@@ -6,6 +6,10 @@ import { Provider } from "react-redux";
 import thunkMiddleware from "redux-thunk";
 import reducers from "./reducers";
 
+require("dotenv").config({
+  path: `.env`,
+});
+
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
   reducers,

@@ -13,7 +13,7 @@ const App = ({ tryAutoConnect }) => {
   }, [tryAutoConnect]);
 
   return (
-    <Router basename="/GridMonitor">
+    <Router basename="">
       <Switch>
         <Route exact path="/">
           <Connect />
